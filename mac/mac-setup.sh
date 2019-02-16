@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Starting bootstrapping"
+echo "Starting installs"
 
 
 
@@ -56,4 +56,4 @@ echo "Installing cask apps..."
 
 brew cask install ${CASKS[@]}
 
-echo "Bootstrapping complete"
+echo "Installs complete"
