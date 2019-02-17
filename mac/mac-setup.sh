@@ -22,6 +22,10 @@ PACKAGES=(
 
    terraform
 
+   kubernetes-helm
+
+   azure-cli
+
 )
 
 echo "Installing packages..."
