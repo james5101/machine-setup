@@ -23,7 +23,7 @@ function Install-ChocoPackages {
 
     Install-Choco
 
-    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli'
+    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git'
 
     ForEach ($PackageName in $Packages)
     {
@@ -34,7 +34,7 @@ function Install-ChocoPackages {
 
 function Upgrade-ChocoPackages {
     
-    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli'
+    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git'
 
     ForEach ($PackageName in $Packages)
     {
