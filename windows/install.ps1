@@ -23,7 +23,7 @@ function Install-ChocoPackages {
 
     Install-Choco
 
-    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git', 'tflint', 'ruby'
+    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git', 'tflint', 'ruby', 'vscode-powershell','vscode-gitlens', 'inspec'
 
     ForEach ($PackageName in $Packages)
     {
@@ -34,7 +34,7 @@ function Install-ChocoPackages {
 
 function Upgrade-ChocoPackages {
     
-    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git', 'tflint', 'ruby'
+    $Packages = 'kubernetes-cli','kubernetes-helm', 'vscode', 'terraform', 'azure-cli', 'git', 'tflint', 'ruby', 'vscode-powershell','vscode-gitlens','inspec'
 
     ForEach ($PackageName in $Packages)
     {
