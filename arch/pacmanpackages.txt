@@ -1,0 +1,7 @@
+terraform
+helm
+packer
+code
+aws-cli
+docker
+kubectl
