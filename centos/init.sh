@@ -16,5 +16,14 @@ yum install -y \
   xz-devel \
   expat-devel
 
+# install and config python 3 from src
+# cd /usr/src
+#  wget http://python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
+#  tar xf Python-3.6.4.tar.xz
+#  cd Python-3.6.4
+#  ./configure --enable-optimizations
+#  make altinstall
+#  exit
+
 #set up bashrc
 $ curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/bashrc -o ~/.bashrc
