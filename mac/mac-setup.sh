@@ -26,6 +26,8 @@ PACKAGES=(
 
    azure-cli
 
+   bash-completion
+
 )
 
 echo "Installing packages..."
@@ -50,7 +52,7 @@ CASKS=(
 
     visual-studio-code
 
-    firefox
+    chrome
 
 )
 
@@ -61,3 +63,6 @@ echo "Installing cask apps..."
 brew cask install ${CASKS[@]}
 
 echo "Installs complete"
+
+echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+
