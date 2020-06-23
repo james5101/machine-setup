@@ -52,7 +52,11 @@ CASKS=(
 
     visual-studio-code
 
-    chrome
+    google-chrome
+    
+    slack
+    
+    virtualbox
 
 )
 
